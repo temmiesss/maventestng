@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Java/MavenTestNG">
+
+        <parameter name="browser" value="dagshkhjd"/>
+
+        <classes>
+<!--            <class name="demo.Calculator">-->
+<!--                <methods>-->
+<!--                    <include name="testAdd"/>-->
+<!--                    <include name="testSubstract"/>-->
+<!--                    <include name="testMultiply"/>-->
+<!--                    <include name="testDivide"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.Text">-->
+<!--                <methods>-->
+<!--                    <include name="test"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="demo.ParametrizedTests"/>
+        </classes>
+    </test>
+</suite>
